@@ -1,0 +1,516 @@
+---
+title: IETF Trends and Observations
+abbrev: I-D
+docname: draft-arkko-ietf-trends-and-observations-pre1
+date: 2016-01-11
+category: info
+ipr: trust200902
+pi:
+  toc: yes
+
+author:
+ -
+    ins: J. Arkko
+    name: Jari Arkko
+    organization: Ericsson
+    street: Kauniainen 02700
+    email: jari.arkko@piuha.net.com
+
+normative:
+
+informative:
+  RFC3935:
+
+--- abstract
+
+Naturally, most work at the IETF is technical.  The organisation also
+spends some time rethinking its structure and processes, but these
+changes tend to be incremental, as is again natural for an
+organisation that has decades of history around these processes.
+
+But sometimes it is useful to view an organisation in light of
+other developments in the world, and put the incremental changes in
+the context of bigger trends.  This memo discusses some trends and
+other observations in IETF's operating environment and how they might
+affect the IETF, and notes some topics for further exploration.
+
+Writing this memo has been inspired by involvement in various
+decisions that the IETF leadership has to take part in, often wishing
+to be able to draw more on understanding trends and their impact
+on the IETF.
+
+This memo is also input for discussion that the IETF community should
+have.
+
+The memo has no particular official standing, nor does it claim to
+represent more than the authors' thinking at the time of writing.
+
+--- middle
+
+# Introduction
+
+
+Naturally, most work at the IETF is technical.  This work goes on in
+the working groups, of which there are more than 120.  The
+organisation also spends some time rethinking its structure and
+processes, but these changes tend to be incremental and responding to
+specific issues or opportunities or changes in the environment we work in.
+This is again natural for an organisation that has decades of history around
+these processes.
+
+Examples of recent non-technical topics include adjusting the IETF
+areas to ones suitable for the current work topics, discussion of
+IANA stewardship transition, adjustment of NomCom rules, or
+increasing diversity.
+
+But sometimes it is useful to view the evolution of an organisation
+in light of other developments in the world, and to put the incremental
+changes in the context of bigger trends.  This memo discusses some
+trends and other observations of the IETF's operating environment and how
+they might affect the IETF.  In some cases the memo also presents
+some avenues of thought about what good might look like within those trends.
+These can be considered when contemplating incremental
+changes or more general goals for the IETF.
+
+This memo is NOT focused on technical trends in the technology that
+the IETF is developing - while that discussion would be interesting, the
+focus of this memo is on things that affect the IETF as an
+organisation.
+
+Writing this memo has been inspired by involvement in various
+decisions that the IETF leadership has to take part in, often wishing
+to be able to draw more on understanding trends and their impact
+on the IETF.  Right now we are taking some decisions in a fairly ad
+hoc manner, without as much written guidance as we would like to
+have.  This memo is also input for discussion that the IETF community
+should have, and as a foundation for expressing to the Internet Society the
+expectations that that the IETF has of them.
+
+The memo has no particular official standing, nor does it claim to
+represent more than the authors' thinking at the time of writing.
+Some of the memo may be useful background for the IETF leadership
+when they think about new ideas or change proposals.  The memo also
+intends to be complementary to existing IETF documents (such as
+{{RFC3935}} and ongoing discussions in the community about any specific
+topic.  In case of overlap or disagreement those other discussions
+shall take precedence.
+
+      Note: There are some topics that are not fully documented in any
+      official manner, despite extensive discussion.  For instance,
+      there is probably broad agreement about the increasing role of
+      open source, but there has not been an RFC about this, to date.
+
+# Problem Statement
+
+When dealing with various IETF related topics - be it about new forms
+of working together like the Hackathon, new people and new topics,
+ongoing industry transformations, or sponsorships - it is essential to
+have an understanding of the trends around us, how they affect the
+IETF.  This understanding helps IETF leadership make better decisions,
+and the community can decide what our general stance is towards
+various broader changes.
+
+Some examples may help illustrate this.
+
+The growing importance of Free and open-source software (FOSS) in networking
+technology is one example where we have a common recognition of the trend, and,
+the authors believe, pretty strong agreement in the IETF that we need to be a
+part of the change, through helping standards and the open source world support
+each other, and make their interaction easier.
+
+Similarly, IETF leadership was recently asked if we wanted to hold an IETF
+Hackathon outside the IETF meetings.  The timing of this request did not make
+it possible to even think about that opportunity, but it opened up a broader
+question of what is the scope that we are trying to achieve in our efforts.
+There is an increasing number of Hackathon-type events in the world.  Is our
+target at the IETF focused on IETF meetings, in existing and new IETF
+participants attending those meetings?  Or should our target be broader, such
+as additional engagement in the tech community, and in using new technology
+coming out of IETF?
+
+A third example is funding.  The IETF needs to understand what
+evolution its funding and sponsorship model will see in the coming
+years, amidst changing meeting participation style (such as remote
+participation) or the increasingly professionally run (outsourced) services
+that we utilize.  While participation numbers have been relatively stable,
+costs are rising.
+
+A fourth example is the increase in remote participation, which in turn leads
+to other effects, including:
+- decreased on-site meeting registration revenue
+- significant changes under way in how working groups conduct their business
+at the main IETF meetings as well as at interim meetings
+- fragmentation of the community, resulting from less opportunities for all
+participants to engage in in-person interactions and ad hoc "hallway
+conversations" which are often among the most valuable aspects of the
+meetings for many participants and the source of many serendipitous
+connections among attendees.
+
+Being able to understand potential changes is not just important for us.
+With the long lead-times involved in implementing changes in an organization
+like the IETF, it is important that the community and leadership look ahead
+and make plans accordingly, to the extent practical. It is also important for
+communicating with the sponsors and other funding sources.  It is a happy
+situation that there is a lot of willingness to fund the IETF from all of
+these sources.  But the IETF still needs to set the format and terms of this
+funding and make the right requests, in a long-term fashion.
+
+Some of these changes and trends may be obvious, and some not so obvious, but
+even for the obvious parts I have found that writing down the commonly agreed
+truths is useful in increasing our focus on dealing with those truths.  And
+some of the topics mentioned above probably eventually deserve their own,
+in-depth treatment in a thread or document of their own.  But as the first
+step, I would like to get to at least identifying the trends that we need to
+talk about.
+
+Are there certain things that are or should be off limits for changing?
+For example, the WG ID/RFC process? The IETF mission is well understood and
+agreed, but the processes beneath it could use some work to refine and improve.
+Interoperability is and will remain a key element in the work we do, ongoing.
+
+A software release or document publication is a valuable rallying point. How
+might we more effectively utilize these opportunities to increase our
+visibility and effectiveness?
+
+Can the IETF process keep up with open source software development "in the
+wild," which is very rapid? What changes could we consider which would serve to
+make us more agile and able to accommodate rapidly moving environments?
+
+A key question to consider is what would motivate someone to bring new work
+into the IETF, instead of other Standards Developing Organizations (SDOs)? What
+kinds of new work make sense to try to attract, and how do we make those
+decisions? What could we do better to attract the sorts of new work that are
+appropriate for us?
+
+It has been observed that some vendors have been developing things and then
+bringing them to the IETF seeking endorsement as a standard. Can and should
+this be addressed, and if so, how? How can we encourage people to bring the
+problem set to the IETF earlier in the process? On the other side of that
+question, how can we as an organization avoid ideas being brought in that seem
+to be not fully thought out, and with little or no likelihood of community
+adoption. In many cases it seems that the people promoting these ideas are
+seeking use cases and problem statements, but not really going anywhere that we
+as a community would consider productive. Does the current working group
+process adequately address this, and if not, how might it be changed to better
+do so?
+
+In contrast to the early days of the Internet, which had the luxury of being
+able to work at its own pace, The Internet of Things (IoT) and its associated
+market pressures are stepping up the pressure to move rapidly. Does the IETF
+have a seat at this table, and should it? If so, how might our processes evolve
+to enable us to be better equipped in this arena?
+
+In some cases, this memo also tries to provide some insight about
+what situations might be considered useful for the IETF within those
+trends.  These insights are meant for discussion, and should not
+constrain what the IETF actually does or what goals it sets for
+itself.
+
+If the IETF better understood what its environment was doing and how it
+wants to evolve, it would be far easier to understand how to react to
+various new ideas or challenges that arise.
+
+This would also be helpful in the numerous concrete decisions that
+the IETF is facing.  For instance, we are currently undergoing
+website redesign, ISOC continues to make decisions regarding how it
+helps IETF reach sponsors or how outreach such as the fellows program
+is run.  Many of these decisions are tactical ones that would benefit
+from understanding the overall direction of the world around us and the
+IETF.
+
+#  Goals of the IETF
+
+The starting point of our work is that the IETF does not exist for
+the sake of itself.  It exists because (and only if) it can improve
+Internet technology, as noted in {{RFC3935}}:
+
+      The goal of the IETF is to make the Internet work better.
+
+The broad purpose of the IETF is therefore Internet technology
+improvements.  Historically, the organisation has developed the core
+Internet technology, focusing on widely used and usable technologies
+rather than more specific technologies.
+
+These technology improvements and extensions are of course only
+useful for the Internet, when the IETF can "... produce high quality,
+relevant technical and engineering documents that influence the way
+people design, use, and manage the Internet ..." [RFC3935].
+
+An often quoted key goal for the IETF work is that it should be
+relevant and timely.
+
+# Observations Relating to Participation
+
+Here are some trends and observations relating to participation in
+professional organisations such as the IETF:
+
+- Over-the-net participation
+
+   The ability to work together without being in the same place
+   continues to improve; global communities can be built based on -
+   at least to large extent - over-the-net collaboration.  As
+   engineers working on real-time communication among other things,
+   this trend should be apparent to IETF participants.  This is not
+   to say that in-person meetings will cease to be useful.
+
+   There is always an advantage to in-person meetings, and core
+   participants of any significant organisation will find ways to
+   arrange such meetings.  IETF meetings will continue to run.
+   However, it is just as likely that there will be some participants
+   who would prefer an entirely over-the-net participation.  Or, to 
+   put it in another way: over-the-net participation significanty 
+   enlarges the pool of potential participants.
+
+   Some of the implications of this trend relate to the growth and
+   renewal of the IETF participant base, process rules related to
+   meeting participation (such as nomcom eligibility), and financing
+   models based primarily on meeting fees and meeting sponsorship.
+
+   The IETF might consider evolving its participation models to
+   ensure that growth in over-the-net participation is technically
+   possible, is an equally attractive alternative for the
+   participants, and can be worked as an integral part of participant
+   and sponsorship funding arrangements.
+
+   An ideal situation might be meetings with roughly equal number of
+   participants as the IETF meetings have today, but a larger number
+   of participants that attend only remotely, or only engage outside
+   meetings. There are a number of challenges facing current and potential
+   participants, including restricted travel budgets, difficulty in obtaining
+   visas, inability to leave work commitments for the necessary time, and
+   difficulty in understanding and communicating in English.
+
+- Culture
+ 
+   The culture of the IETF is evolving. We have a joint set of values and
+   traditions, some of which will stay but some of which will also change, with
+   benefits for IETF as an organization as well as for individual participants.
+
+- Ecosystem
+
+   With the rapid development of the Internet of Things (IoT) bringing
+   numerous types of connected devices and services online, the ecosystem is
+   becoming much larger. With this expansion comes the need for more standards,
+   and along with the risk of fragmentation if more of this work goes elsewhere
+   (to other SDOs), there is also the real risk that the community will see
+   additional costs in coordination. It is to our benefit to strengthen the IETF
+   brand and to make the IETF and IETF results visible, and to make the IETF the
+   preferred forum in which to start new work.
+
+   The IETF brand is core internet technology, and improving the internet,
+   not specific new things. The fundamental strength of the internet is that it is
+   at the base of so much of our world, and the IETF keeps the internet running.
+
+- Outreach
+
+   It is becoming clear that outreach will be an increasingly important
+   component as the IETF moves ahead. This could take many forms:
+    - outreach aimed at reaching more people with the message that the IETF
+      is the central and key SDO for the Internet
+    - outreach as in going out of our way to market our brand
+    - outreach as in paying for people from developing regions to
+      participate, such as funding travel to IETF meetings or regional hubs
+
+   It will be important for the IETF as a community to understand and come to
+   consensus on where on this continuum we want to be.
+
+- Marketing
+
+   This includes being clear about what we are doing, how, and why we do it the way that we do.
+
+- Political perception
+
+   As politics and technology become ever more intertwined, this includes
+   things like making a your systems acceptable to various government entities
+   with differing ideological and cultural norms. We need to make sure that the
+   adoption of and support for open, global standards are percieved as desirable.
+   Political acceptance of, and respect for, the IETF is important in this
+   context.
+
+   Note that awareness of the bigger ecosystem and political issues may be
+   an awareness problem for the IETF community. Should we consider taking steps to
+   inform and educate people more about these matters, for example by holding
+   informational sessions at relevant events? This might be something that the
+   IAB/ISOC/IETF liaisons should be prepared to do more often, on topics not just
+   related to the specific organization/event but also other ongoing world
+   developments. The current furor over encryption, in the context of public fear
+   of terrorist attacks, is an example of the type of opportunity in which the
+   IETF could play a valuable role by providing reliable and credible information
+   to counter misinformation and misunderstanding among policymakers and the
+   press.
+
+- Internal Communication
+
+   Along these same lines, internal communication among the community can
+   and should also happen in ways other than meetings. This is something that
+   needs to be explored in more depth as well.
+
+- Renewal and Diversity
+
+   Many organisations, IETF included, go through a rapid initial growth
+   phase, followed by more stable long-term existence.  It is, however, essential
+   that organisations renew themselves, both in terms of how they work and their
+   participation.  In particular, the inclusion of new generations of Internet
+   technologists is essential to the long-term viability of an Internet standards
+   organisation.
+
+   But the renewal can obviously be thought of along different
+   dimensions.  An important topic that has generated a lot of
+   discussion at the IETF is the topic of diversity.  This is
+   important in two ways.  First, creating an environment that is
+   good for diverse participants is the right thing to do.  Secondly,
+   trends in deployment of the Internet in the developing world, for
+   instance, may seem foreign to current participants.  Being able to
+   include participants that understand different business and cultural
+   environments, different economic conditions, different branches of
+   industry, and so on, is essential to developing technology that
+   matches needs in those areas.
+
+   The IETF works well due to the continued participation of many people
+   with a broad range of expertise. New people are attracted to work within the
+   IETF when that expertise adds value to what they are working to achieve (see
+   the geojson working group for a recent example). We have a relatively simple
+   set of processes, even if it sometimes feels heavy. We have a framework for
+   dealing with IPR issues that enables quick and open progress.
+
+- Modes of Participation
+
+   Importantly, we are relatively quick to adapt to new styles of working
+   together. We expect groups to self-organize and choose ways of completing their
+   work that fit the group best. The xmpp related groups sometimes met, often with
+   very little meeting structure, over instant messaging. The httpbis working
+   group is making effective use of github to track discussions and develop
+   documents. Groups are working with open source communities to build
+   implementations and specification together, with quick feedback informing and
+   improving each of those tasks. As we evolve, we should find ways to make
+   adopting new working techniques even easier.
+
+   As the IETF grows, and people from more diverse parts of the world get
+   involved, it might be useful to look at making greater use of remote
+   participation to involve greater numbers of people and  get work done.
+
+   - Working Group efforts
+
+   Sometimes, periodic meetings drive work being done.  People naturally
+   work to deadlines, and while the IETF meeting 3 times a year does serve as a
+   forcing function for work to be completed, these meetings are far apart.  On
+   the other hand meeting every two weeks or even monthly can help to drive a more
+   uniform and continuous cycle - with more frequent milestones. In order for such
+   work to be effective however, some staff support is necessary.  This would have
+   budget implications.
+
+   - Meetings
+
+   While some remote participation is used at meetings, it is still awkward.
+   Remote contributions, as opposed to just remote listening, often needs to be
+   setup in advance. While it is still possible to type something in a chat that
+   is read by a jabber scribe, this does not really qualify as remote
+   participation. The software exists to do at least bi-directional voice, even if
+   there are bandwidth limitation in some remote areas.  It should be largely an
+   effort in implementation and education for chairs and others in the use of
+   remote participation.
+
+   - Use of hubs
+
+   One way to do augment remote participation and increase diversity is to
+   create hubs.  These hubs can participate in the sessions of the main meeting,
+   but can also holds sessions in their local time zone on protocols or protocols
+   issues that have special local or regional significance.
+
+   They can augment existing IETF meetings and bring some of the benefits of
+   face-to-face interactions to those who cannot travel consistently to IETF.
+   They may also be able to help crystallize geographically close communities of
+   contributors to do technical collaboration.
+
+   While it is possible to participate in the IETF on mailing lists, building
+   personal relationships and understanding of the personalities of active
+   participants helps greatly in interactions.  Traveling to IETF meetings can
+   require justifications of the usefulness to an employer and those benefits are
+   hard to articulate without having been there.  It is important that the IETF
+   support and encourage not merely highly active "standards people" but also less
+   standards-active people - such as developers.
+
+   The IETF has some experience with Remote Hubs from the Internet Society's work
+   encouraging them to prepare for the Buenos Aires IETF.  There are several
+   factors that would collectively contribute to the success of remote hubs, which
+   will be addressed in a separate document.
+
+    - Use of hackathons in the hubs
+
+   There are many developers, especially of FOSS code, around the world in
+   location that would never be able to travel to the major IETF meetings. Not
+   only would funding be difficult, but visas might be very difficult or
+   impossible to obtain. They might be able to improve the tools we are using for
+   remote participation  and collaboration.
+
+-  Collaboration Considerations
+
+   Deploying new collaboration tools and methods to established communities such
+   as the IETF requires care and planning to ensure success. Leveraging the
+   enthusiasm of influential early adopters can be a very effective strategy. In
+   SDOs like the IETF, participants might be broadly generalized as those engaged
+   because they want to actively contribute and participate and influence the
+   direction of the standards and technology, and those who are monitoring
+   activity to stay informed about trends and directions that they can incorporate
+   into their work, as early adopters. The tools and methods that are most
+   effective and acceptable for these two types of participants will vary
+   somewhat, and will be addressed in a separate document.
+
+# Observations Relating to Internet Technology Development Styles
+
+Here are some trends relating to how Internet technology is being
+developed:
+
+- Open Source
+
+   While open source has always been an important part of various
+   Internet developments, in the last couple of years its importance
+   has grown significantly.  A big part of networking development
+   today happens in open source projects.  The ability of the IETF to
+   usefully engage in this space, and provide value for the open
+   source developments is essential.  Of course, there is no need for
+   the IETF to try to repliate or compete with the open source
+   efforts; standards will continue to be useful, but the standards
+   need to be such that they and their development style fit with
+   open source efforts.
+
+- Rule of Code
+
+   While running code has always been a key feature at the IETF, in
+   today's fast-paced world it is even more important.  It is also
+   important from the point of view of verifying that work that gets
+   done has some useful connection to actual running systems.
+   (Necessary but not sufficient condition.)
+
+   As a result, being able to integrate more running code into the
+   IETF process and to the IETF as a forum (meetings etc.) is likely
+   useful going forward.  Recent experiences with Hackathons,
+   interops, and other events are a good experience in this regard.
+
+- Software Definition
+
+   Another trend in the last decade has been about making networking
+   as software-defined as possible, through a generally useful but
+   minimal framework that allows building new features on top without
+   having to, for instance, have the vendor providing a node do the
+   programming.
+
+- Permissionless Innovation
+
+   More generally, permissionless innovation, the ability to develop
+   features without undue need to coordinate with others, has always
+   been a key feature of the Internet.  The success of the web, for
+   instance, lies largely in the ability of anyone to program
+   underlying frameworks and provide the content, features or
+   applications on top without any coordination with anyone.  The
+   IETF is small and can not nor should not ever develop specific
+   solutions.  The Internet technology community works best when it
+   can develop these successful frameworks with suitable amount of
+   standards underneath, but leaving all the rest to whoever is
+   employing the technology.
+
+   Some might argue that this is the end of standards, being too
+   successful with too open-ended solutions that need no further
+   standardisation.
+
+# Acknowledgements 
