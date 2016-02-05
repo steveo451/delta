@@ -1,8 +1,8 @@
 ---
 title: IETF Trends and Observations
 abbrev: I-D
-docname: draft-arkko-ietf-trends-and-observations-pre1
-date: 2016-01-11
+docname: draft-arkko-ietf-trends-and-observations-pre2
+date: 2016-01-20
 category: info
 ipr: trust200902
 pi:
@@ -23,16 +23,9 @@ informative:
 
 --- abstract
 
-Naturally, most work at the IETF is technical. The organisation also
-spends some time rethinking its structure and processes, but these
-changes tend to be incremental, as is again natural for an
-organisation that has decades of history around these processes.
+While most of the work in the IETF, represented by the charters and daily work of the various working groups, is technical, the IETF does, on a regular basis, examine itself, it's processes, and it's goals to determine if the technical community is truly serving the larger network engineering community effectively. Changes in this area tend to be incremental, as is fitting for an organization with the decades of experience and history in developing and managing the process of building technical specifications.
 
-But sometimes it is useful to view an organisation in light of
-other developments in the world, and put the incremental changes in
-the context of bigger trends. This memo discusses some trends and
-other observations in IETF's operating environment and how they might
-affect the IETF, and notes some topics for further exploration.
+The rapid and ongoing changes in the world have recently caused a number of IETF participants to examine the current processes and operation of the IETF, particularly in the context of the culture of the IETF. This memo discusses some cultural and global trends in relation to the IETF's operating environment, how these trends might affect the operation of the IETF, and notes some topics for further exploration.
 
 Writing this memo has been inspired by involvement in various
 decisions that the IETF leadership has to take part in, often wishing
@@ -50,32 +43,34 @@ represent more than the authors' thinking at the time of writing.
 # Introduction
 
 
-Naturally, most work at the IETF is technical.  This work goes on in
-the working groups, of which there are more than 120.  The
-organisation also spends some time rethinking its structure and
-processes, but these changes tend to be incremental and responding to
-specific issues or opportunities or changes in the environment we work in.
-This is again natural for an organisation that has decades of history around
-these processes.
+While most of the work in the IETF, represented by the charters and daily work of the various working groups, is technical, the IETF does, on a regular basis, examine itself, it's processes, and it's goals to determine if the technical community is truly serving the larger network engineering community effectively. Changes in this area tend to be incremental, as is fitting for an organization with the decades of experience and history in developing and managing the process of building technical specifications.
 
 Examples of recent non-technical topics include adjusting the IETF
 areas to ones suitable for the current work topics, discussion of
-IANA stewardship transition, adjustment of NomCom rules, or
+IANA stewardship transition, adjustment of NomCom rules, and
 increasing diversity.
 
-But sometimes it is useful to view the evolution of an organisation
-in light of other developments in the world, and to put the incremental
-changes in the context of bigger trends.  This memo discusses some
-trends and other observations of the IETF's operating environment and how
-they might affect the IETF.  In some cases the memo also presents
-some avenues of thought about what good might look like within those trends.
-These can be considered when contemplating incremental
-changes or more general goals for the IETF.
+The current rapid changes, both in the social and technical environments in which the IETF operates, have led a number of participants to spend time examining the IETF's operating environment. This memo makes some observations about developments in the larger world, placing them in the context of larger ongoing changes and discusses how these changes might impact the operation of the IETF. After considering these things, this memo presents some avenues of thought about what "good" might look like within those trends which might be helpful in considering incremental changes in the structure or operational procedures of the IETF.
 
 This memo is NOT focused on technical trends in the technology that
 the IETF is developing - while that discussion would be interesting, the
 focus of this memo is on things that affect the IETF as an
 organisation.
+
+Will the IETF become a valuable repository of the past and a largely academic institution focused on the evolution of the internet?
+
+Or will it become the go-to place for companies to resolve their competing standards and protocols, relying on the wisdom of those that went before to divine a solution?
+
+Or will it be reinvigorated by a new generation let in thanks to the exit of the old guard and once more take the pilot controls of the internet?
+
+Kieren McCarthy posited some interesting and relevant questions in his article in The Register celebrating IETF's 30th anniversary:
+http://www.theregister.co.uk/2016/01/16/happy_30th_birthday_ietf_now_what_you_going_to_do_with_your_life/
+
+	Will the IETF become a valuable repository of the past and a largely academic institution focused on the evolution of the internet?
+
+	Or will it become the go-to place for companies to resolve their competing standards and protocols, relying on the wisdom of those that went before to divine a solution?
+
+	Or will it be reinvigorated by a new generation let in thanks to the exit of the old guard and once more take the pilot controls of the internet?
 
 Writing this memo has been inspired by involvement in various
 decisions that the IETF leadership has to take part in, often wishing
@@ -95,38 +90,21 @@ intends to be complementary to existing IETF documents (such as
 topic.  In case of overlap or disagreement those other discussions
 shall take precedence.
 
-      Note: There are some topics that are not fully documented in any
-      official manner, despite extensive discussion.  For instance,
-      there is probably broad agreement about the increasing role of
-      open source, but there has not been an RFC about this, to date.
-
 # Problem Statement
 
 When dealing with various IETF related topics - be it about new forms
 of working together like the Hackathon, new people and new topics,
 ongoing industry transformations, or sponsorships - it is essential to
-have an understanding of the trends around us, how they affect the
+have an understanding of the trends around us, and how they affect the
 IETF.  This understanding helps IETF leadership make better decisions,
 and the community can decide what our general stance is towards
 various broader changes.
 
 Some examples may help illustrate this.
 
-The growing importance of Free and open-source software (FOSS) in networking
-technology is one example where we have a common recognition of the trend, and,
-the authors believe, pretty strong agreement in the IETF that we need to be a
-part of the change, through helping standards and the open source world support
-each other, and make their interaction easier.
+One particular trend is the growing importance of the Free and Open Source Software (FOSS) movement. The authors believe there is strong agreement within the IETF that we need to be a part of the change by helping FOS and open standards work together, combining their respective strengths in a way that creates value for the entire network engineering community. Open source cannot succeed without open standards, and instantiation of open standards in open source projects strengthens the standards and the community at large.
 
-Similarly, IETF leadership was recently asked if we wanted to hold an IETF
-Hackathon outside the IETF meetings.  The timing of this request did not make
-it possible to even think about that opportunity, but it opened up a broader
-question of what is the scope that we are trying to achieve in our efforts.
-There is an increasing number of Hackathon-type events in the world.  Is our
-target at the IETF focused on IETF meetings, in existing and new IETF
-participants attending those meetings?  Or should our target be broader, such
-as additional engagement in the tech community, and in using new technology
-coming out of IETF?
+The IETF Hackathon is a second example. Holding Hackathons outside the IETF meetings has been suggested. This raises a set of questions. What are the IETF Hackathons trying to achieve? Who should we target as participants? There are an increasing number of Hackathon-type events in the world. Should the IETF Hackathons focus on attracting regular IETF participants, or should they search for a broader engagement with the broader technical community? Should they focus primarily on implementing IETF technology, or should they also have an explicit goal of promoting the adoption of that technology in the broader technical community?
 
 A third example is funding.  The IETF needs to understand what
 evolution its funding and sponsorship model will see in the coming
@@ -174,7 +152,7 @@ visibility and effectiveness?
 
 Can the IETF process keep up with open source software development "in the
 wild," which is very rapid? What changes could we consider which would serve to
-make us more agile and able to accommodate rapidly moving environments?
+make us more agile and able to accommodate rapidly moving environments? One possibility to consider would be to move to a standards release process that more closely resembles a software release process. The bis process, and the inability to delete parts of specifications which have been overtaken by events or which no longer make sense without long and difficult arguments, or to delete things that just aren't being used at all, makes it harder to really understand and process the output of the IETF for those who are new or not very familiar with it. 
 
 A key question to consider is what would motivate someone to bring new work
 into the IETF, instead of other Standards Developing Organizations (SDOs)? What
@@ -190,9 +168,8 @@ question, how can we as an organization avoid ideas being brought in that seem
 to be not fully thought out, and with little or no likelihood of community
 adoption. In many cases it seems that the people promoting these ideas are
 seeking use cases and problem statements, but not really going anywhere that we
-as a community would consider productive. Does the current working group
-process adequately address this, and if not, how might it be changed to better
-do so?
+as a community would consider productive. This can be a major frustration, particularly when an area of work develops its own internal vocabulary that isn't (apparently) related to the rest of the world, or the complexity jumps to points where few people can read and understand the work because of specific corner cases. Does the current working group
+process adequately address this, and if not, how might it be changed to better do so? How could we better avoid trying to solve all problems and every corner case?
 
 In contrast to the early days of the Internet, which had the luxury of being
 able to work at its own pace, The Internet of Things (IoT) and its associated
@@ -238,6 +215,12 @@ people design, use, and manage the Internet ..." [RFC3935].
 
 An often quoted key goal for the IETF work is that it should be
 relevant and timely.
+
+There is a tendency for engineering communities to gravitate towards building their own solutions to problems rather than adapting something that already exists (this can be viewed as the false lure of simplicity, etc.).
+
+- Horizontals and Verticals
+
+	The IETF typically organizes its work around providing standardized building blocks for specific engineering challenges; horizontals. It does not define or adapt 'vertical' frameworks like "Smart Cities", "Internet of Things" or "5G networks." It is implicitly assumed that the participants will apply the building blocks within the verticals. As a result organizations that work on technologies within those framework may, without understanding and following the technical scope of the various working groups not know that they can contribute. Conversely it may in some cases be hard to realize the applicability of certain IETF standards as building blocks within those verticals.
 
 # Observations Relating to Participation
 
@@ -298,7 +281,7 @@ professional organisations such as the IETF:
    preferred forum in which to start new work.
 
    The IETF brand is core internet technology, and improving the internet,
-   not specific new things. The fundamental strength of the internet is that it is
+   not specifically new things. The fundamental strength of the internet is that it is
    at the base of so much of our world, and the IETF keeps the internet running.
 
 - Outreach
@@ -323,7 +306,7 @@ professional organisations such as the IETF:
    As politics and technology become ever more intertwined, this includes
    things like making a your systems acceptable to various government entities
    with differing ideological and cultural norms. We need to make sure that the
-   adoption of and support for open, global standards are percieved as desirable.
+   adoption of and support for open, global standards are perceived as desirable.
    Political acceptance of, and respect for, the IETF is important in this
    context.
 
@@ -337,7 +320,9 @@ professional organisations such as the IETF:
    of terrorist attacks, is an example of the type of opportunity in which the
    IETF could play a valuable role by providing reliable and credible information
    to counter misinformation and misunderstanding among policymakers and the
-   press.
+   press. 
+   
+   There appears to be a perception among some that the IETF is, at least sometimes, beholden to vendors. Working more effectively with the open source community, and working to expand participation among actual users (not just developers), might help this problem and the one described above.
 
 - Internal Communication
 
@@ -488,12 +473,8 @@ developed:
    interops, and other events are a good experience in this regard.
 
 - Software Definition
-
-   Another trend in the last decade has been about making networking
-   as software-defined as possible, through a generally useful but
-   minimal framework that allows building new features on top without
-   having to, for instance, have the vendor providing a node do the
-   programming.
+	
+	Another trend in the last decade has been software defined networking, which tends to mean several things. For instance, software defined networking can mean the separation of the control plane from the forwarding plane, or it can mean the centralization of the control plane into a small number of devices which interact with a distributed set of forwarding devices, or it can mean providing interfaces through which applications can interact with the control plane to guide traffic through an overlay of policy. The IETF can play a role in this movement by helping to define the terms used (providing taxonomies for all of the above), develop the right interfaces and models, and also to help mitigate the hype cycle in order to produce useful technical solutions while maintaining the interoperability of open standards. Interaction with the FOSS movement could help facilitate these roles.
 
 - Permissionless Innovation
 
@@ -512,5 +493,27 @@ developed:
    Some might argue that this is the end of standards, being too
    successful with too open-ended solutions that need no further
    standardisation.
+   
+ - The IETF are us vs. consumerism
+
+	At its core the IETF is a community that performs standardization through collaboration. It is defined through its participation and the quality of the specifications it delivers. Traditionally cross-area review, interest and participation in other peoples work have driven the quality of the output. It takes a serious investment on the part of participants to spend time on other technologies that are outside the direct short term interest of the participants. The same applies to the ability to invest in leadership activity. If participation is solely driven around getting one's own work done (consumerism is perhaps a too negative term) then that might deteriorate the quality of the overall output and thereby the relevance of the IETF.
 
 # Acknowledgements 
+
+
+Alia Atlas <akatlas@gmail.com>
+
+Avri Doria <avri@acm.org>
+
+Tobias Gondrom <tobias.gondrom@gondrom.org>
+
+Olaf Kolkman <kolkman@isoc.org>
+
+Steve Olshansky <olshansky@isoc.org> (Editor)
+
+Benson Schliesser <bensons@queuefull.net>
+
+Robert Sparks <rjsparks@nostrum.com>
+
+Russ White <russ@riw.us>
+
