@@ -1,6 +1,5 @@
 ---
 title: IETF Trends and Observations
-abbrev: I-D
 docname: draft-arkko-ietf-trends-and-observations-00
 date: 2016-02-11
 category: info
@@ -19,52 +18,56 @@ author:
   code: 99999
   country: Finland
   email: jari.arkko@piuha.net.com
-  
+ - 
   ins: A. Atlas
   name: Alia Atlas
   org: YYY
   email: akatlas@gmail.com
-	
+ -
   ins: A. Doria
   name: Avri Doria
   org: YYY 
   email: avri@acm.org
-	
+ -
   ins: T. Gondrom
   name: Tobias Gondrom
   org: YYY
   email: tobias.gondrom@gondrom.org
-	
+ -
   ins: O. Kolkman
   name: Olaf Kolkman
   org: Internet Society
   street: 1775 Wiehle Avenue, Suite 201
-	city: Reston
-	code: 20190-5108
-	country: USA
+  city: Reston
+  code: 20190-5108
+  country: USA
   email: kolkman@isoc.org
-  
+ -
   ins: S. Olshansky
   name: Steve Olshansky
   org: Internet Society
   role: editor
   street: 1775 Wiehle Avenue, Suite 201
-	city: Reston
-	code: 20190-5108
-	country: USA
+  city: Reston
+  code: 20190-5108
+  country: USA
   email: olshansky@isoc.org
-
+ -
   ins: B. Schliesser
   name: Benson Schliesser
   org: YYY
   email: bensons@queuefull.net
-
+ -
   ins: R. Sparks
   name: Robert Sparks
-  organization: 
-  street: 
+  org: Oracle
+  street: 7460 Warren Parkway Suite 300
+  city: Frisco
+  state: Texas
+  code: 75023
+  country: USA
   email: rjsparks@nostrum.com
-
+ -
   ins: R. White
   name: Russ White
   org: YYY
@@ -79,21 +82,21 @@ informative:
   target: http://www.theregister.co.uk/2016/01/16/happy_30th_birthday_ietf_now_what_you_going_to_do_with_your_life/
   title: "Happy 30th birthday, IETF: The engineers who made the 'net happen"
   author:
-   ins: K. McCarthy
-   name: Kieren McCarthy
-   org: The Register
+    ins: K. McCarthy
+    name: Kieren McCarthy
+    org: The Register
   date: 2016
   format:
-   HTML: http://www.theregister.co.uk/2016/01/16/happy_30th_birthday_ietf_now_what_you_going_to_do_with_your_life/
+    HTML: http://www.theregister.co.uk/2016/01/16/happy_30th_birthday_ietf_now_what_you_going_to_do_with_your_life/
  
  Rumelt2011:
-	title: "Good Strategy Bad Strategy: The Difference and Why It Matters"
-	author:
-   ins: R. Rumelt
-   name: Richard Rumelt
-  seriesinfo:
-  ISBN: 978-0307886231
-  date: 2011
+    title: "Good Strategy Bad Strategy: The Difference and Why It Matters"
+    author:
+      ins: R. Rumelt
+      name: Richard Rumelt
+    seriesinfo:
+      ISBN: 978-0307886231
+    date: 2011
 
 --- abstract
 
@@ -140,7 +143,7 @@ The starting point of our work is that the IETF does not exist for
 the sake of itself. It exists because (and only if) it can improve
 Internet technology, as noted in {{RFC3935}}:
 
-   The goal of the IETF is to make the Internet work better.
+         The goal of the IETF is to make the Internet work better.
 
 The broad purpose of the IETF is therefore Internet technology
 improvements. Historically, the organization has developed the core
@@ -157,7 +160,7 @@ relevant and timely.
 
 - Horizontals and Verticals
 
-	The IETF typically organizes its work around providing standardized building blocks for specific engineering challenges -- "horizontals." It does not define or adapt "vertical" frameworks like "Smart Cities," "Internet of Things," or "5G networks." It is implicitly assumed that the participants will apply the building blocks within the verticals. As a result, organizations that work on technologies within those frameworks may not know, without understanding and following the technical scope of the various working groups, that they can contribute. Conversely, it may in some cases be hard to recognize the applicability of certain IETF standards as building blocks within those verticals.
+The IETF typically organizes its work around providing standardized building blocks for specific engineering challenges -- "horizontals." It does not define or adapt "vertical" frameworks like "Smart Cities," "Internet of Things," or "5G networks." It is implicitly assumed that the participants will apply the building blocks within the verticals. As a result, organizations that work on technologies within those frameworks may not know, without understanding and following the technical scope of the various working groups, that they can contribute. Conversely, it may in some cases be hard to recognize the applicability of certain IETF standards as building blocks within those verticals.
 
 # Problem Statement
 
@@ -294,12 +297,13 @@ professional organizations such as the IETF:
 
   It is becoming clear that outreach will be an increasingly important
   component as the IETF moves ahead. This could take many forms:
+
   - outreach aimed at reaching more people with the message that the IETF is the central and key SDO for the Internet
   - outreach as in going out of our way to market our brand
   - outreach as in doing more to encourage and enable the use of remote hubs, and making them a key element of our participatory culture
   - outreach as in paying for people from developing regions to participate, such as funding travel to IETF meetings or regional hubs   
   
- 	It will be important for the IETF as a community to understand and come to
+  It will be important for the IETF as a community to understand and come to
   consensus on where on this continuum we want to be.
 
 - Marketing
@@ -496,15 +500,20 @@ developed:
   interops, and other events provide good experience in this regard.
 
 - Software Definition
-	
-	Another trend in the last decade has been software defined 
-	networking (SDN), which tends to mean several things. For instance, 
-	SDN can mean:
-	- separation of the control plane from the forwarding plane
-	- centralization of the control plane into a small number of devices which interact with a distributed set of forwarding devices
-	- providing interfaces through which applications can interact with the control plane to guide traffic through an overlay of policy. 
-	
-	The IETF can play a role in this movement by helping to define the terms used (providing taxonomies for all of the above), develop the right interfaces and models, and also to help mitigate the hype cycle in order to produce useful technical solutions while maintaining the interoperability of open standards. Interaction with the FOSS movement could help facilitate these roles.
+
+  Another trend in the last decade has been software defined 
+  networking (SDN), which tends to mean several things. For instance, 
+  SDN can mean:
+
+    - separation of the control plane from the forwarding plane
+    - centralization of the control plane into a small number of devices which interact with a distributed set of forwarding devices
+    - providing interfaces through which applications can interact with the control plane to guide traffic through an overlay of policy. 
+
+  The IETF can play a role in this movement by helping to define the terms used
+  (providing taxonomies for all of the above), develop the right interfaces and
+  models, and also to help mitigate the hype cycle in order to produce useful
+  technical solutions while maintaining the interoperability of open standards.
+  Interaction with the FOSS movement could help facilitate these roles.
 
 - Permissionless Innovation
 
@@ -520,13 +529,24 @@ developed:
   standards underneath, but leaving all the rest to whoever is
   employing the technology.
 
-  Some might argue that this is the end of standards, i.e. being too
-  successful with too open-ended solutions that need no further
-  standardization. However there is a strong counter-argument that permissionless innovation is aided by standardization because it defines optional capabilities that can be used for making sure the permissionless tools, services, and features etc. have an environment in which they can flourish.
+  Some might argue that this is the end of standards, i.e. being too successful
+  with too open-ended solutions that need no further standardization. However
+  there is a strong counter-argument that permissionless innovation is aided by
+  standardization because it defines optional capabilities that can be used for
+  making sure the permissionless tools, services, and features etc. have an
+  environment in which they can flourish.
   
- - The IETF as a reflection and enabler of the community's common interests
+- The IETF as a reflection and enabler of the community's common interests
 
-	At its core the IETF is a community that performs standardization through collaboration. It is defined through its participation and the quality of the specifications it delivers. Traditionally cross-area review, and interest and participation in other peoples work, have driven the quality of the output. It takes a serious investment on the part of participants to spend time on other technologies that are outside of their direct short term interests. The same applies to the ability to invest in leadership activity. If participation is solely driven around getting one's own work done then that might deteriorate the quality of the overall output and thereby the relevance of the IETF.
+  At its core the IETF is a community that performs standardization through
+  collaboration. It is defined through its participation and the quality of the
+  specifications it delivers. Traditionally cross-area review, and interest and
+  participation in other peoples work, have driven the quality of the output. It
+  takes a serious investment on the part of participants to spend time on other
+  technologies that are outside of their direct short term interests. The same
+  applies to the ability to invest in leadership activity. If participation is
+  solely driven around getting one's own work done then that might deteriorate
+  the quality of the overall output and thereby the relevance of the IETF.
 
 # Acknowledgements 
 
